@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks & Afternoon Tea - Trader Joe's Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+    
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">TJ's Recipe Collection</h1>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meals.html">Main Meals</a></li>
+                    <li><a href="snacks.html" class="active">Snacks & Tea</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <h2>Snacks & Afternoon Tea</h2>
+            <p>Perfect treats for your afternoon break or study sessions</p>
+        </section>
+
+        <section class="sorting-controls">
+            <h3>Sort Snacks By:</h3>
+            <div class="sort-buttons">
+                <button id="sort-calories-snacks" class="btn btn-sort">Sort by Calories (Low to High)</button>
+                <button id="sort-price-snacks" class="btn btn-sort">Sort by Price (Low to High)</button>
+                <button id="reset-sort-snacks" class="btn btn-sort">Reset to Original Order</button>
+            </div>
+        </section>
+
+        <section class="recipes">
+            <div class="recipe-grid" id="snacks-grid">
+                
+                <!-- Snack Card 1 - Template -->
+                <article class="recipe-card" data-calories="180" data-price="3.99">
+                    <img src="images/food/snack1.jpg" alt="Photo of Snack Name 1">
+                    <div class="recipe-content">
+                        <h3>Snack Name 1</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">180 cal/serving</span>
+                            <span class="price">$3.99</span>
+                        </div>
+                        <p class="description">Brief description of this delicious snack and what makes it special for afternoon tea.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/snack1" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Snack Card 2 -->
+                <article class="recipe-card" data-calories="220" data-price="4.50">
+                    <img src="images/food/snack2.jpg" alt="Photo of Snack Name 2">
+                    <div class="recipe-content">
+                        <h3>Snack Name 2</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">220 cal/serving</span>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <p class="description">Brief description of this delicious snack and what makes it special for afternoon tea.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/snack2" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Snack Card 3 -->
+                <article class="recipe-card" data-calories="150" data-price="2.99">
+                    <img src="images/food/snack3.jpg" alt="Photo of Snack Name 3">
+                    <div class="recipe-content">
+                        <h3>Snack Name 3</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">150 cal/serving</span>
+                            <span class="price">$2.99</span>
+                        </div>
+                        <p class="description">Brief description of this delicious snack and what makes it special for afternoon tea.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/snack3" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Snack Card 4 -->
+                <article class="recipe-card" data-calories="280" data-price="5.99">
+                    <img src="images/food/snack4.jpg" alt="Photo of Snack Name 4">
+                    <div class="recipe-content">
+                        <h3>Snack Name 4</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">280 cal/serving</span>
+                            <span class="price">$5.99</span>
+                        </div>
+                        <p class="description">Brief description of this delicious snack and what makes it special for afternoon tea.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/snack4" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Snack Card 5 -->
+                <article class="recipe-card" data-calories="195" data-price="3.49">
+                    <img src="images/food/snack5.jpg" alt="Photo of Snack Name 5">
+                    <div class="recipe-content">
+                        <h3>Snack Name 5</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">195 cal/serving</span>
+                            <span class="price">$3.49</span>
+                        </div>
+                        <p class="description">Brief description of this delicious snack and what makes it special for afternoon tea.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/snack5" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!--  -->
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Trader Joe's Recipe Collection | Created with ❤️ in Ann Arbor</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

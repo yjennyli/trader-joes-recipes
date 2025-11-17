@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Meals - Trader Joe's Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+    
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">TJ's Recipe Collection</h1>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meals.html" class="active">Main Meals</a></li>
+                    <li><a href="snacks.html">Snacks & Tea</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <h2>Main Meals</h2>
+            <p>Delicious, nutritious meals made with Trader Joe's ingredients</p>
+        </section>
+
+        <section class="sorting-controls">
+            <h3>Sort Recipes By:</h3>
+            <div class="sort-buttons">
+                <button id="sort-calories" class="btn btn-sort">Sort by Calories (Low to High)</button>
+                <button id="sort-price" class="btn btn-sort">Sort by Price (Low to High)</button>
+                <button id="reset-sort" class="btn btn-sort">Reset to Original Order</button>
+            </div>
+        </section>
+
+        <section class="recipes">
+            <div class="recipe-grid" id="meals-grid">
+                
+                <!-- Recipe Card 1 - Template -->
+                <article class="recipe-card" data-calories="450" data-price="8.99">
+                    <img src="images/food/meal1.jpg" alt="Photo of Recipe Name 1">
+                    <div class="recipe-content">
+                        <h3>Recipe Name 1</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">450 cal/serving</span>
+                            <span class="price">$8.99</span>
+                        </div>
+                        <p class="description">Brief description of this delicious meal and what makes it special.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/recipe1" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Recipe Card 2 -->
+                <article class="recipe-card" data-calories="380" data-price="7.50">
+                    <img src="images/food/meal2.jpg" alt="Photo of Recipe Name 2">
+                    <div class="recipe-content">
+                        <h3>Recipe Name 2</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">380 cal/serving</span>
+                            <span class="price">$7.50</span>
+                        </div>
+                        <p class="description">Brief description of this delicious meal and what makes it special.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/recipe2" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Recipe Card 3 -->
+                <article class="recipe-card" data-calories="520" data-price="12.99">
+                    <img src="images/food/meal3.jpg" alt="Photo of Recipe Name 3">
+                    <div class="recipe-content">
+                        <h3>Recipe Name 3</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">520 cal/serving</span>
+                            <span class="price">$12.99</span>
+                        </div>
+                        <p class="description">Brief description of this delicious meal and what makes it special.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/recipe3" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Recipe Card 4 -->
+                <article class="recipe-card" data-calories="410" data-price="9.25">
+                    <img src="images/food/meal4.jpg" alt="Photo of Recipe Name 4">
+                    <div class="recipe-content">
+                        <h3>Recipe Name 4</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">410 cal/serving</span>
+                            <span class="price">$9.25</span>
+                        </div>
+                        <p class="description">Brief description of this delicious meal and what makes it special.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/recipe4" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!-- Recipe Card 5 -->
+                <article class="recipe-card" data-calories="350" data-price="6.99">
+                    <img src="images/food/meal5.jpg" alt="Photo of Recipe Name 5">
+                    <div class="recipe-content">
+                        <h3>Recipe Name 5</h3>
+                        <div class="recipe-meta">
+                            <span class="calories">350 cal/serving</span>
+                            <span class="price">$6.99</span>
+                        </div>
+                        <p class="description">Brief description of this delicious meal and what makes it special.</p>
+                        <h4>Key Ingredients:</h4>
+                        <ul class="ingredients">
+                            <li>Trader Joe's Ingredient 1</li>
+                            <li>Trader Joe's Ingredient 2</li>
+                            <li>Trader Joe's Ingredient 3</li>
+                        </ul>
+                        <a href="https://example.com/recipe5" target="_blank" rel="noopener noreferrer" class="btn btn-recipe">View Full Recipe</a>
+                    </div>
+                </article>
+
+                <!--  -->
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Trader Joe's Recipe Collection | Created with ❤️ in Ann Arbor</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
